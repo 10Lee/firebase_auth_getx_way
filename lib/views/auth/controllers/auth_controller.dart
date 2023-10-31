@@ -27,7 +27,7 @@ class AuthController extends GetxController {
 
   _setInitialScreen(User? user) {
     if (user == null) {
-      Get.offAllNamed(AppRoutes.registerRoute);
+      Get.offAllNamed(AppRoutes.registerOrLoginRoute);
     } else {
       Get.offAllNamed(AppRoutes.rootRoute);
     }
@@ -35,7 +35,7 @@ class AuthController extends GetxController {
 
   _setInitialScreenGoogle(GoogleSignInAccount? googleSignInAccount) {
     if (googleSignInAccount == null) {
-      Get.offAllNamed(AppRoutes.registerRoute);
+      Get.offAllNamed(AppRoutes.registerOrLoginRoute);
     } else {
       Get.offAllNamed(AppRoutes.rootRoute);
     }

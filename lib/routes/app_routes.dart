@@ -1,11 +1,11 @@
 import 'package:belajar_firebase_auth_getx_way/utils/bindings/initial.dart';
-import 'package:belajar_firebase_auth_getx_way/views/auth/register_page.dart';
+import 'package:belajar_firebase_auth_getx_way/views/auth/register_or_login_page.dart';
 import 'package:belajar_firebase_auth_getx_way/views/homepage.dart';
 import 'package:get/get.dart';
 
 class AppRoutes {
   static const String rootRoute = '/';
-  static const String registerRoute = '/register';
+  static const String registerOrLoginRoute = '/register_or_login';
 
   static List<GetPage> pages = [
     GetPage(
@@ -14,8 +14,8 @@ class AppRoutes {
       binding: InitialBinding(),
     ),
     GetPage(
-      name: registerRoute,
-      page: () => const RegisterPage(),
+      name: registerOrLoginRoute,
+      page: () => const RegisterOrLoginPage(),
       binding: InitialBinding(),
     ),
   ];
