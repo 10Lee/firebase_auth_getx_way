@@ -1,5 +1,5 @@
 import 'package:belajar_firebase_auth_getx_way/utils/bindings/initial.dart';
-import 'package:belajar_firebase_auth_getx_way/views/auth/register_or_login_page.dart';
+import 'package:belajar_firebase_auth_getx_way/views/auth/auth_page.dart';
 import 'package:belajar_firebase_auth_getx_way/views/homepage.dart';
 import 'package:get/get.dart';
 
@@ -15,7 +15,7 @@ class AppRoutes {
     ),
     GetPage(
       name: registerOrLoginRoute,
-      page: () => const RegisterOrLoginPage(),
+      page: () => const AuthPage(),
       binding: InitialBinding(),
     ),
   ];

@@ -1,14 +1,14 @@
 import 'package:belajar_firebase_auth_getx_way/utils/constants.dart';
 import 'package:flutter/material.dart';
 
-class RegisterOrLoginPage extends StatefulWidget {
-  const RegisterOrLoginPage({super.key});
+class AuthPage extends StatefulWidget {
+  const AuthPage({super.key});
 
   @override
-  State<RegisterOrLoginPage> createState() => _RegisterOrLoginPageState();
+  State<AuthPage> createState() => _AuthPageState();
 }
 
-class _RegisterOrLoginPageState extends State<RegisterOrLoginPage> {
+class _AuthPageState extends State<AuthPage> {
   var _emailController = TextEditingController();
   var _passwordController = TextEditingController();
   @override
