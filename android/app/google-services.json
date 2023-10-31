@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026455727099",
+    "project_id": "fir-auth-getx-way",
+    "storage_bucket": "fir-auth-getx-way.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026455727099:android:c9e2a9f90f2620dc10795e",
+        "android_client_info": {
+          "package_name": "com.example.belajar_firebase_auth_getx_way"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyYr0TTN1fyNmIho59rlKUMOIMq0ElwZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
